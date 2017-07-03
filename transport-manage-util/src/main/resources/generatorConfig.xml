@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+		
+    <classPathEntry    location="F:/mysql-connector-java-5.0.8-bin.jar"/>
+    
+    <context id="DB2Tables"    targetRuntime="MyBatis3">
+    	<property name="javaFileEncoding" value="UTF-8" />
+    	
+        <commentGenerator >
+            <property name="suppressDate" value="true"/>
+            <property name="suppressAllComments" value="false"/>
+            <property name="useActualColumnNames" value="true" />
+        </commentGenerator>
+        
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/transport?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8" 
+        	userId="root" 
+        	password="root">
+        </jdbcConnection>
+        
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+        
+        <javaModelGenerator targetPackage="com.transport.pojo" targetProject="transport-manage-util">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+        
+        <sqlMapGenerator targetPackage="com.transport.dao" targetProject="transport-manage-util">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+        
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.transport.dao" targetProject="transport-manage-util">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+        
+        <table tableName="t_customer_info" domainObjectName="CustomerInfo" 
+	        enableCountByExample="false" 
+	        enableUpdateByExample="false" 
+	        enableDeleteByExample="false" 
+	        enableSelectByExample="false" 
+	        selectByExampleQueryId="false">
+        	<property name="useActualColumnNames" value="FALSE"/>
+        </table>
+        <table tableName="t_driver_info" domainObjectName="DriverInfo" 
+	        enableCountByExample="false" 
+	        enableUpdateByExample="false" 
+	        enableDeleteByExample="false" 
+	        enableSelectByExample="false" 
+	        selectByExampleQueryId="false">
+        	<property name="useActualColumnNames" value="FALSE"/>
+        </table>
+        <table tableName="t_company_info" domainObjectName="CompanyInfo" 
+	        enableCountByExample="false" 
+	        enableUpdateByExample="false" 
+	        enableDeleteByExample="false" 
+	        enableSelectByExample="false" 
+	        selectByExampleQueryId="false">
+        	<property name="useActualColumnNames" value="FALSE"/>
+        </table>
+        <table tableName="t_oil_info" domainObjectName="OilInfo" 
+	        enableCountByExample="false" 
+	        enableUpdateByExample="false" 
+	        enableDeleteByExample="false" 
+	        enableSelectByExample="false" 
+	        selectByExampleQueryId="false">
+        	<property name="useActualColumnNames" value="FALSE"/>
+        </table>
+        <table tableName="t_oil_price" domainObjectName="OilPrice" 
+	        enableCountByExample="false" 
+	        enableUpdateByExample="false" 
+	        enableDeleteByExample="false" 
+	        enableSelectByExample="false" 
+	        selectByExampleQueryId="false">
+        	<property name="useActualColumnNames" value="FALSE"/>
+        </table>
+        <table tableName="t_refinery_info" domainObjectName="RefineryInfo" 
+	        enableCountByExample="false" 
+	        enableUpdateByExample="false" 
+	        enableDeleteByExample="false" 
+	        enableSelectByExample="false" 
+	        selectByExampleQueryId="false">
+        	<property name="useActualColumnNames" value="FALSE"/>
+        </table>
+        <table tableName="t_tank_info" domainObjectName="TankInfo" 
+	        enableCountByExample="false" 
+	        enableUpdateByExample="false" 
+	        enableDeleteByExample="false" 
+	        enableSelectByExample="false" 
+	        selectByExampleQueryId="false">
+        	<property name="useActualColumnNames" value="FALSE"/>
+        </table>
+        <table tableName="t_transaction" domainObjectName="Transaction" 
+	        enableCountByExample="false" 
+	        enableUpdateByExample="false" 
+	        enableDeleteByExample="false" 
+	        enableSelectByExample="false" 
+	        selectByExampleQueryId="false">
+        	<property name="useActualColumnNames" value="FALSE"/>
+        </table>
+        <table tableName="t_trip" domainObjectName="Trip" 
+	        enableCountByExample="false" 
+	        enableUpdateByExample="false" 
+	        enableDeleteByExample="false" 
+	        enableSelectByExample="false" 
+	        selectByExampleQueryId="false">
+        	<property name="useActualColumnNames" value="FALSE"/>
+        </table>
+        <table tableName="t_truck_info" domainObjectName="TruckInfo" 
+	        enableCountByExample="false" 
+	        enableUpdateByExample="false" 
+	        enableDeleteByExample="false" 
+	        enableSelectByExample="false" 
+	        selectByExampleQueryId="false">
+        	<property name="useActualColumnNames" value="FALSE"/>
+        </table>
+        
+    </context>
+</generatorConfiguration>
