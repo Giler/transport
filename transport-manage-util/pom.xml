@@ -5,7 +5,7 @@
     <artifactId>transport-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>transport-manage-util</artifactId>
+  <artifactId>transport-util</artifactId>
   
   <dependencies>
   	<dependency>
@@ -17,7 +17,7 @@
   <build>
   	<plugins>
   		<!-- 使用mybatis反省生产成 -->
-		<plugin>
+		<!-- <plugin>
 		    <groupId>org.mybatis.generator</groupId>
 		    <artifactId>mybatis-generator-maven-plugin</artifactId>
 		    <version>1.3.2</version>
@@ -33,7 +33,7 @@
 		            </goals>
 		        </execution>
 	    </executions>
-		</plugin>
+		</plugin> -->
   	</plugins>
   </build>
 </project>

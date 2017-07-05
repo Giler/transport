@@ -13,6 +13,9 @@
         <dependent-module archiveName="transport-manage-pojo-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/transport-manage-pojo/transport-manage-pojo">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="transport-manage-plugin-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/transport-manage-plugin/transport-manage-plugin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="transport-common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/transport-common/transport-common">
             <dependency-type>uses</dependency-type>
         </dependent-module>

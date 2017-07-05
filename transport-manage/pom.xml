@@ -22,6 +22,7 @@
   	<module>transport-manage-mapper</module>
   	<module>transport-manage-service</module>
   	<module>transport-manage-web</module>
+  	<module>transport-manage-plugin</module>
   </modules>
   
   
