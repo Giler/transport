@@ -10,7 +10,7 @@
   	 <dependencies>
 	  	<dependency>
 		    <groupId>org.apache.shiro</groupId>
-		    <artifactId>shiro-core</artifactId>
+		    <artifactId>shiro-all</artifactId>
 		</dependency>
 	</dependencies>
 </project>

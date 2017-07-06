@@ -46,7 +46,7 @@
 	</dependency>
 	 <dependency>
 	    <groupId>org.apache.shiro</groupId>
-	    <artifactId>shiro-web</artifactId>
+	    <artifactId>shiro-all</artifactId>
 	</dependency>
 	
   </dependencies>
