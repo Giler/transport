@@ -16,7 +16,10 @@
 	<!-- 加载spring容器 -->
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>classpath:spring/applicationContext*.xml</param-value>
+		<param-value>
+			classpath:spring/applicationContext*.xml,
+			classpath:shiro/shiro.xml
+		</param-value>
 	</context-param>
 	<!-- 以下3项参数与log4j的配置相关 -->  
     <context-param>  

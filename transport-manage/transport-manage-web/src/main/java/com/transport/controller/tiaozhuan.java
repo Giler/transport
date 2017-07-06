@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class tiaozhuan {
 
-	@RequestMapping("/")
+	@RequestMapping("/admin/listUser")
 	public String getCustomerByID(){
-		return "angular";
+		return "user/info";
 	}
 	@RequestMapping("/showDash")
 	public String showDash(){
