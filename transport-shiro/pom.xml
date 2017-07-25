@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
@@ -7,9 +8,18 @@
   </parent>
   <artifactId>transport-shiro</artifactId>
   <packaging>pom</packaging>
+  
+  <properties>
+  	<shiro.credentials.version>0.0.1-SNAPSHOT</shiro.credentials.version>
+  </properties>
+  
   <modules>
   	<module>transport-shiro-dao</module>
-  	<module>transport-shiro-POJO</module>
+  	<module>transport-shiro-poj</module>
   	<module>transport-shiro-service</module>
+    <module>transprot-shiro-credentials</module>
+    <module>transport-shiro-realm</module>
+    <module>transport-shiro-web</module>
   </modules>
+  
 </project>

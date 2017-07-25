@@ -22,11 +22,6 @@
     </dependency>
     <dependency>
 		<groupId>com.transport</groupId>
-		<artifactId>transport-shiro-POJO</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-    <dependency>
-		<groupId>com.transport</groupId>
 		<artifactId>transport-shiro-dao</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
   	</dependency>

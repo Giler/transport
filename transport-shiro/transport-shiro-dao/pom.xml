@@ -29,7 +29,7 @@
 	</dependency>
     <dependency>
 		<groupId>com.transport</groupId>
-		<artifactId>transport-shiro-POJO</artifactId>
+		<artifactId>transport-shiro-pojo</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   </dependencies>
